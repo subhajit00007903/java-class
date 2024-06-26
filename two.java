@@ -6,6 +6,7 @@ public class two {
    public static void main(String[] args){
       Scanner sc = new Scanner(System.in);
       display d = new display();
+      d.method1();
       int a = sc.nextInt();
       int b = sc.nextInt();
       sum s = new sum();
